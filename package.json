@@ -1,6 +1,6 @@
 {
   "name": "sketch-helpweb",
-  "description": "",
+  "description": "web html css image",
   "version": "0.1.1",
   "engines": {
     "sketch": ">=49.0"
@@ -23,5 +23,9 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "caorukang <1020617646@qq.com>"
+  "author": "caorukang <1020617646@qq.com>",
+  "repository" : {
+    "type": "git",
+    "url": "git+https://github.com/mybenmao/sketch-helpweb.git"
+  }
 }
