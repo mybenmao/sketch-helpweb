@@ -24,7 +24,7 @@
     "@skpm/builder": "^0.7.0"
   },
   "author": "caorukang <1020617646@qq.com>",
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/mybenmao/sketch-helpweb.git"
   }
