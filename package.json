@@ -1,0 +1,27 @@
+{
+  "name": "sketch-helpweb",
+  "description": "",
+  "version": "0.1.1",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "sketch-helpweb",
+    "manifest": "src/manifest.json",
+    "main": "sketch-helpweb.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  },
+  "author": "caorukang <1020617646@qq.com>"
+}

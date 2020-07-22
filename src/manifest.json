@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "sketch-helpweb.my-command-identifier",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "sketch-helpweb",
+    "items": [
+      "sketch-helpweb.my-command-identifier"
+    ]
+  }
+}
